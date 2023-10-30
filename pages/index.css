@@ -1,6 +1,10 @@
 .page {
+  min-width: 1100px;
+  max-width: 1600px;
   margin: 0 auto;
-  font-family: "Inter", Arial, sans-serif;
+  font-family: "Inter", Arial, sans-serif, "Noto Serif", "Times New Roman",
+    serif;
+  font-family: Inter, Arial, sans-serif;
   font-size: 16px;
   line-height: 20px;
 }
@@ -66,7 +70,8 @@
   color: #2f80ed;
 }
 
-.header__title_line {
+.header__title_bottom {
+  margin: 0;
   display: block;
 }
 
@@ -163,10 +168,12 @@
   width: 480px;
   display: flex;
   justify-content: space-between;
+  margin: 0;
 }
 
 .recipes__video-caption_right {
   width: 480px;
   display: flex;
   justify-content: space-between;
+  margin: 0;
 }
