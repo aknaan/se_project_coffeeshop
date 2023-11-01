@@ -62,7 +62,7 @@
             <p class="header__paragraph">Monday – Friday (10:00 – 19:00)</p>
             <p class="header__paragraph">Saturday – Sunday (11:00 – 18:00)</p>
           </div>
-          <p class="header__paragraph header__paragrapg_right">
+          <p class="header__paragraph header__paragraph_right">
             200 Success Avenue, The Town of Triple Peaks
           </p>
         </div>
@@ -105,58 +105,60 @@
           <h2 class="reservation__title">Book a table</h2>
           <form action="#" class="form reservation__form">
             <fieldset class="form__fieldset">
-              <label for="full-name" class="form__label">Name *</label>
-              <input
-                class="form__input"
-                type="text"
-                name="full-name"
-                id="full-name"
-                placeholder="Name Surname"
-                required
-              />
-              <label for="number-of-guests" class="form__label"
-                >Number of guests *</label
-              >
-              <input
-                class="form__input"
-                type="number"
-                name="number-of-guests"
-                id="number-of-guests"
-                min="1"
-                max="8"
-                placeholder="1-8"
-                required
-              />
-              <label for="date-and-time" class="form__label"
-                >Date & time *</label
-              >
-              <input
-                class="form__input"
-                type="datetime-local"
-                name="date-and-time"
-                id="date-and-time"
-                required
-              />
-              <label for="email" class="form__label">Your email *</label>
-              <input
-                class="form__input"
-                type="email"
-                name="email"
-                id="email"
-                placeholder="email@email.com"
-                required
-              />
-              <button class="form__button" type="submit">Book a table</button>
-              <div class="form form__terms-of-use">
+              <div class="form__ fieldset form__fieldset_margins">
+                <label for="full-name" class="form__label">Name *</label>
                 <input
-                  class="form__checkbox"
-                  type="checkbox"
-                  name="terms of use"
-                  id="checkbox"
+                  class="form__input"
+                  type="text"
+                  name="full-name"
+                  id="full-name"
+                  placeholder="Name Surname"
+                  required
                 />
-                <label for="checkbox" class="form__label">
-                  I agree with the terms of use</label
+                <label for="number-of-guests" class="form__label"
+                  >Number of guests *</label
                 >
+                <input
+                  class="form__input"
+                  type="number"
+                  name="number-of-guests"
+                  id="number-of-guests"
+                  min="1"
+                  max="8"
+                  placeholder="1-8"
+                  required
+                />
+                <label for="date-and-time" class="form__label"
+                  >Date & time *</label
+                >
+                <input
+                  class="form__input"
+                  type="datetime-local"
+                  name="date-and-time"
+                  id="date-and-time"
+                  required
+                />
+                <label for="email" class="form__label">Your email *</label>
+                <input
+                  class="form__input"
+                  type="email"
+                  name="email"
+                  id="email"
+                  placeholder="email@email.com"
+                  required
+                />
+                <button class="form__button" type="submit">Book a table</button>
+                <div class="form form__terms-of-use">
+                  <input
+                    class="form__checkbox"
+                    type="checkbox"
+                    name="terms of use"
+                    id="checkbox"
+                  />
+                  <label for="checkbox" class="form__label">
+                    I agree with the terms of use</label
+                  >
+                </div>
               </div>
             </fieldset>
           </form>

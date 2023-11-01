@@ -121,7 +121,7 @@
   color: #838383;
 }
 
-.header__paragrapg_right {
+.header__paragraph_right {
   margin: 0 80px 40px;
 }
 
@@ -197,8 +197,8 @@
 .reservation {
   background-color: #d9e7ff;
   background-image: url(../images/background_reservation.svg);
-  background-repeat: no-repeat;
   background-position: center;
+  background-repeat: no-repeat;
   background-size: cover;
 }
 
@@ -225,6 +225,11 @@
   border-style: none;
   padding: 0;
   max-width: 385px;
+  height: 620px;
+}
+
+.form__fieldset_margins {
+  margin-bottom: 120px;
 }
 
 .form__label {
