@@ -25,7 +25,3 @@
   border-bottom: 1px solid black;
   flex-grow: 1;
 }
-
-.card__list-divider_bottom {
-  margin-bottom: 0;
-}

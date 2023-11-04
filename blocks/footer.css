@@ -1,7 +1,8 @@
 .footer {
   background: linear-gradient(180deg, #0a2850 0%, #071931 100%);
-  padding: 60px 80px 108px;
+  padding: 60px 80px 60px;
   color: #fff;
+  box-sizing: border-box;
 }
 
 .footer__content {
@@ -13,19 +14,21 @@
   height: 39px;
 }
 
+.footer__social {
+  margin: 0 0 0 auto;
+}
+
 .footer__social-heading {
-  display: block;
   font-weight: bold;
   font-size: 16px;
   line-height: 20px;
-  margin: 0 0 20px auto;
+  margin: 0;
 }
 
 .footer__list {
   list-style-type: none;
   margin: 0;
   padding: 0;
-  margin-left: auto;
 }
 
 .footer__social-icon {
@@ -46,6 +49,10 @@
   transition-property: color;
   transition-duration: 2s;
   transition-timing-function: ease-in;
+}
+
+.footer__list-item {
+  margin-top: 20px;
 }
 
 .footer__list-item_margins {

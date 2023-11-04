@@ -52,6 +52,8 @@
   line-height: 20px;
   color: #fff;
   background-color: #2f80ed;
+  cursor: pointer;
+  border-style: none;
 }
 
 .form__button:hover {
@@ -65,7 +67,7 @@
   height: 20px;
 }
 
-input::placeholder {
+.form__input {
   font-size: 20px;
   line-height: 30px;
   color: #838383;

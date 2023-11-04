@@ -1,6 +1,7 @@
 .header {
   display: flex;
   flex-direction: column;
+  box-sizing: border-box;
   min-height: 720px;
   max-height: 800px;
   height: 100vh;
@@ -25,14 +26,10 @@
 
 .header__span-accent {
   font-family: "Noto Serif", "Times New Roman", serif;
+  display: block;
   font-style: italic;
   font-weight: normal;
   color: #2f80ed;
-}
-
-.header__title_bottom {
-  margin: 0;
-  display: block;
 }
 
 .header__description {
@@ -67,8 +64,10 @@
   font-size: 16px;
   line-height: 20px;
   color: #838383;
+  z-index: 2;
+  align-self: flex-end;
 }
 
-.header__paragraph_right {
+.header__paragraph_postion_right {
   margin: 0 80px 40px;
 }
