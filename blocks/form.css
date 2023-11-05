@@ -32,6 +32,8 @@
 }
 
 .form__input {
+  font-size: 20px;
+  line-height: 30px;
   border-radius: 4px;
   width: 100%;
   padding: 0;
@@ -39,6 +41,7 @@
   height: 60px;
   border-color: #838383;
   box-sizing: border-box;
+  border-width: 1px;
 }
 
 .form__button {
@@ -67,9 +70,7 @@
   height: 20px;
 }
 
-.form__input {
-  font-size: 20px;
-  line-height: 30px;
+.form__input::placeholder {
   color: #838383;
   padding-left: 20px;
 }

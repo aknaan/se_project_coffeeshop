@@ -39,14 +39,10 @@
 
 .recipes__video-caption {
   display: flex;
-  padding: 8px 0 215px;
+  justify-content: space-between;
+  padding: 24px 0 215px;
   margin: 0;
   font-weight: 500;
   font-size: 20px;
   line-height: 30px;
-}
-
-.recipes__video-caption_position_right {
-  margin-left: auto;
-  padding: 0;
 }
